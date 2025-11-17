@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(173, 252, 94);
+    text-align: center;
+}
+form {
+    background-color: rgb(253, 170, 69);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid black;
+}
+textarea {
+    background-color: rgb(253, 151, 253);
+    border: 2px solid black;
+    height: 100px;
+    width: auto;
+}
+input {
+    background-color: rgb(253, 252, 252);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1 {
+    background-color: rgb(255, 112, 112);
+}
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+button {
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
