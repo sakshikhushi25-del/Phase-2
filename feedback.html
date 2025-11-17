@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    <header>
+        <h1>Give Your Feedback Here</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="profile.html">Profile</a>
+            <a href="courses.html">Courses</a>
+            <a href="gradetable.html">GradesTable</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="contactus.html">ContactUs</a>
+        </nav><br><hr>
+    </header>
+    <br>
+    <form action="#">
+        <h2>Feedback Form</h2>
+    <p>We would love to hear your thoughts, suggestions, concerns or problems with anything so we can improve!</p>
+    <br>
+    <h3>Rating</h3>
+    <label>
+        <input type="checkbox" name="rating" value="1">1
+    </label>
+    <label>
+        <input type="checkbox" name="rating" value="2">2
+    </label>
+    <label>
+        <input type="checkbox" name="rating" value="3">3
+    </label> 
+    <label>
+        <input type="checkbox" name="rating" value="4">4
+    </label>
+    <label>
+        <input type="checkbox" name="rating" value="4">5
+    </label>
+    </form>
+    <br><br>
+    <h3>Feedback Type</h3>
+    <label for="id1">
+        <input type="radio" value="comments" name="feedback type" id="id1">Comments</label>
+    <label for="id2">
+        <input type="radio" value="suggestions" name="feedback type" id="id2">Suggestions</label>
+    <label for="id3">
+        <input type="radio" value="question" name="feedback type" id="id3">Questions</label>
+    <br><br><br>
+    <label for="feedback">Describe Your Feedback:</label><br><br>
+    <textarea name="feedback" placeholder="please give your feedback here"></textarea><br><br>
+    <input type="text" placeholder="Enter Your FullName">
+    <br><br>
+    <input type="text" placeholder="E-mail"><br><br>
+    <button class="submit">Submit</button>
+</body>
+</html>
