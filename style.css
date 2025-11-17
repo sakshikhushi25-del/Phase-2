@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(243, 189, 117);
+    text-align: center;
+}
+h1 {
+    font-size: xx-large;
+    color:blue;
+    background-color: rgb(247, 79, 79);
+}
+nav {
+    flex-direction: column;
+}
+div {
+    height: auto;
+    width: auto;
+    border: 2px ;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:hsl(22, 86%, 72%);
+    border-radius:10px;
+    flex-direction: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+#box1 {
+    background-color: rgb(200, 255, 127);
+    height: 150px;
+    width: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+}
+#box2 {
+    background-color: rgb(200, 255, 127);
+    height: 150px;
+    width: 100px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+#box3 {
+    background-color: rgb(200, 255, 127);
+    height: 150px;
+    width: 100px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+#box4 {
+    background-color: rgb(200, 255, 127);
+    height: 150px;
+    width: 100px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+#box5 {
+    background-color: rgb(200, 255, 127);
+    height: 150px;
+    width: 100px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+footer {
+    background-color: rgb(247, 79, 79);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+@media  (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+}
