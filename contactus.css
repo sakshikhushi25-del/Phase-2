@@ -1,0 +1,35 @@
+body {
+    background-color: bisque;
+    text-align: center;
+}
+h1 {
+    font-style: oblique;
+    text-decoration: underline;
+}
+nav {
+    height: auto;
+    will-change: auto;
+    background-color: aquamarine;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    justify-content: center;
+    margin: auto;
+}
+nav:hover {
+    background-color: aquamarine;
+    transform: scale(1.03);
+}
+h1:hover {
+    transform: scale(1.03);
+}
+p:hover {
+    transform: scale(1.02);
+}
+h3:hover {
+    transform: scale(1.03);
+}
