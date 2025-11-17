@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(146, 240, 208);
+}
+header {
+    text-align: center;
+    background-color: khaki;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+h1 {
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    background: rgb(210, 233, 253);
+    width: 250px;
+    margin: 5px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgb(252, 224, 182);
+}
+.card h2 {
+    padding: 10px;
+    color: magenta;
+}
+.card a {
+    background-color: rgb(141, 141, 250);
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+.card:hover {
+    background-color: rgb(109, 107, 107);
+    color: whitesmoke;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+nav:hover {
+    transform: scale(1.05);
+}
+.card a:hover {
+    background-color: black;
+}
+h2:hover {
+    color: blanchedalmond;
+}
+h1:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 5px;
+    background-color: black;
+    color: white;
+}
+@media screen {
+    .card:hover {
+        background-color: rgb(109, 107, 107);
+        color: whitesmoke;
+        cursor: pointer;
+        transform: scale(1.02);
+}
+}
