@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="feedbackform.css">
+</head>
+<body>
+    <div class="feedback-container">
+        <h2>Give us your feedback</h2>
+    <form>
+        <div class="input-group">
+            <input type="text" placeholder="Fullname" required>
+        </div>
+        <div class="input-group">
+            <input type="E-mail" placeholder="E-mail">
+        </div>
+        <div class="stars">
+            <label>
+            <input type="checkbox" name="rating" value="5">&#9733</label>
+            <label>
+            <input type="checkbox" name="rating" value="4">&#9733</label>
+            <label>
+            <input type="checkbox" name="rating" value="3">&#9733</label>
+            <label>
+            <input type="checkbox" name="rating" value="2">&#9733</label>
+            <label>
+            <input type="checkbox" name="rating" value="1">&#9733</label>
+        </div>
+        <div class="input-group">
+            <textarea placeholder="Your Feedback" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Submit Feedback</button>
+        <div class="form-footer">
+            <p>Have any questions? <a href="#">FAQs</a></p>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
